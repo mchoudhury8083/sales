@@ -71,7 +71,7 @@ def store_data_mangodb(json_dataframe):
     table.insert_many(json_object)
 
 #Main code starts here
-mydb = conn.connect(host = "127.0.0.1", user = "root", password = "jaiMaata1!")
+mydb = conn.connect(host = "127.0.0.1", user = "root", password = "*****")
 cursor = mydb.cursor()
 
 #create required tables
